@@ -1,0 +1,69 @@
+{
+  "trainingPhrases": [ {
+    "id": "b8a85189-07e3-48b5-b0d5-6bf2da3f0a7d",
+    "parts": [ {
+      "text": "I'm sorry it's "
+    }, {
+      "text": "Zoe",
+      "parameterId": "person"
+    }, {
+      "text": " not Soe"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "c98e7ecc-9013-45fe-9f09-6f976abbdca2",
+    "parts": [ {
+      "text": "Ian Munday",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "be536b66-2e40-4901-8491-e667ff143d32",
+    "parts": [ {
+      "text": "Amila Deshan",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "4cc62cbb-a19e-45d5-9c8e-aadfe9e40f6a",
+    "parts": [ {
+      "text": "Zoe Tudor",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "189a7ac8-5852-44d7-aa7a-01b9e98bb983",
+    "parts": [ {
+      "text": "Shai Ellis",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "be91653c-1e19-4602-b4dc-b283bbc1a971",
+    "parts": [ {
+      "text": "Jessica Parker",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "0ad43b1b-8596-4e24-ba86-3792078971fe",
+    "parts": [ {
+      "text": "Jhon Denver",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}

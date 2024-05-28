@@ -1,0 +1,33 @@
+{
+  "name": "edd92def-8d65-4f02-aa24-4b024e65b6eb",
+  "displayName": "Buy Glass Other Intent Group",
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "142cf43e-3bc2-4325-b65d-0230979e1ffa"
+  }, {
+    "intent": "order.tracking",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "order tracking",
+    "name": "0dc156b5-0279-4d26-9b05-609ad126db78"
+  }, {
+    "intent": "sku.given",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "SKU given",
+    "name": "5f995da0-0ac5-4e4c-8017-d521ea414aa2"
+  }, {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "4a2d5e2d-e3c5-49ff-bfc8-e5ad49fe8ff0"
+  } ]
+}

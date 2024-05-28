@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "windscreen",
+    "synonyms": [ "front screen", "windscreen", "windshield" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "rearscreen",
+    "synonyms": [ "back windscreen", "backscreen ", "rearscreen" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "door glass",
+    "synonyms": [ "door glass", "driver's door glass", "left back door glass", "left door glass", "left front door glass", "right back door glass", "right door glass", "right front door glass" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "side mirror",
+    "synonyms": [ "left side mirror", "right side mirror", "side mirror", "side mirrors" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "rear mirror",
+    "synonyms": [ "rear mirror" ],
+    "languageCode": "en-au"
+  } ]
+}

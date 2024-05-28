@@ -1,0 +1,19 @@
+{
+  "name": "7b7663d6-3e4a-4bed-92c3-39b53e20da16",
+  "displayName": "telling.vehicle.information",
+  "parameters": [ {
+    "id": "vehicle_make",
+    "entityType": "@vehicle_make"
+  }, {
+    "id": "vehicle_model",
+    "entityType": "@vehicle_model"
+  }, {
+    "id": "vehicle_body_type",
+    "entityType": "@vehicle_body_type"
+  }, {
+    "id": "vehicle_year",
+    "entityType": "@vehicle_year"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 17
+}

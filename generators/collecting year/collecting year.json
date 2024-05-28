@@ -1,0 +1,13 @@
+{
+  "name": "e35263ef-c7d6-437a-96cc-c7268bc93940",
+  "displayName": "collecting year",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

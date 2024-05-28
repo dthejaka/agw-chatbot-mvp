@@ -1,0 +1,33 @@
+{
+  "name": "ebd8c385-c437-4552-ad97-f52a3febf2c7",
+  "displayName": "All Intents for Buy Glass",
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "28c8d7b0-1fb5-4d4d-8d67-8f02aca5d5d2"
+  }, {
+    "intent": "order.tracking",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "order tracking",
+    "name": "b6052562-9fd3-458b-9683-707e3705f4cd"
+  }, {
+    "intent": "sku.given",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "SKU given",
+    "name": "39ffe360-a44b-486b-a3be-7d036dd972e6"
+  }, {
+    "intent": "glass.buy",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "buy glass",
+    "name": "7c8650ad-77cd-4ed8-bf74-c860c6c88f81"
+  } ]
+}

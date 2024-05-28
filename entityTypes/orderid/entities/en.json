@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "N\\d{5}",
+    "synonyms": [ "N\\d{5}" ],
+    "languageCode": "en"
+  }, {
+    "value": "N\\d{6}",
+    "synonyms": [ "N\\d{6}" ],
+    "languageCode": "en"
+  }, {
+    "value": "N\\d+",
+    "synonyms": [ "N\\d+" ],
+    "languageCode": "en"
+  }, {
+    "value": "n\\d+",
+    "synonyms": [ "n\\d+" ],
+    "languageCode": "en"
+  } ]
+}

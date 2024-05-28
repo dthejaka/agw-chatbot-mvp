@@ -1,0 +1,61 @@
+{
+  "name": "9e431f86-4f05-480b-92ce-202a9e4d20b9",
+  "displayName": "buy glass",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.part_finder_response" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "",
+          "rawUrl": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif",
+          "reference": {
+            "anchor": {
+              "href": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif"
+            },
+            "image": {
+              "rawUrl": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif"
+            },
+            "text": "Logo"
+          },
+          "type": "image"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "generators": [ {
+      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
+      "outputParameter": "$request.generative.part_finder_response"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "direct me feature",
+    "name": "42490610-0a3a-4e74-aa84-a746f02b28a5"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative.fallback2" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+        "outputParameter": "$request.generative.fallback2"
+      } ]
+    },
+    "name": "91189780-864a-4571-b884-f5c0ff09600d"
+  } ]
+}

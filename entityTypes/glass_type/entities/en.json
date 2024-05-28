@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "Windscreen",
+    "synonyms": [ "front screen", "front window", "windscreen", "windshield" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rearscreen",
+    "synonyms": [ "back windscreen", "backscreen ", "rear glass", "rearglass", "rearscreen", "rear window" ],
+    "languageCode": "en"
+  }, {
+    "value": "Door Glass",
+    "synonyms": [ "door glass", "door window" ],
+    "languageCode": "en"
+  }, {
+    "value": "Side Mirror",
+    "synonyms": [ "left side mirror", "right side mirror", "side mirror", "side mirrors" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rear Mirror",
+    "synonyms": [ "rear mirror" ],
+    "languageCode": "en"
+  }, {
+    "value": "Front Right Door",
+    "synonyms": [ "driver's door", "Driver's door", "drivers door", "front right door", "right front door" ],
+    "languageCode": "en"
+  }, {
+    "value": "Front Left Door",
+    "synonyms": [ "front left door", "Front Left Door", "left front door", "passengers front window" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rear Right Door",
+    "synonyms": [ "back right door", "Rear Right Door", "right side back door" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rear Left Door",
+    "synonyms": [ "back left door", "left back door", "left handside rear window", "Rear Left Door" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rear tailgate glass",
+    "synonyms": [ "rear tailgate" ],
+    "languageCode": "en"
+  } ]
+}

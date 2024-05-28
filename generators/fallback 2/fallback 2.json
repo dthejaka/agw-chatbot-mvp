@@ -1,0 +1,13 @@
+{
+  "name": "ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+  "displayName": "fallback 2",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

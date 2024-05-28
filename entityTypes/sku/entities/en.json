@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "SKU",
+    "synonyms": [ "Model number", "Part Number", "Product ID", "productid", "sku", "SKU", "barcode" ],
+    "languageCode": "en"
+  } ]
+}

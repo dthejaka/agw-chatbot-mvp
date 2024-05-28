@@ -1,0 +1,14 @@
+{
+  "name": "00000000-0000-0000-0000-000000000001",
+  "displayName": "Default Negative Intent",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "vehicle_model",
+    "entityType": "@vehicle_model"
+  } ],
+  "priority": 500000,
+  "isFallback": true,
+  "numTrainingPhrases": 7
+}

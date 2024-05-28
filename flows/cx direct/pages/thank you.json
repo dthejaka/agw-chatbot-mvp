@@ -1,0 +1,45 @@
+{
+  "name": "0a45b045-04b4-4012-9cb8-a4005cbb0294",
+  "displayName": "thank you",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for providing your information. Customer support agent will contact you shortly." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "cx call",
+    "tag": "cx_direct"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If you have any other questions, please feel free to ask." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "c47d0440-34e2-49e7-a49c-998dbab02d7b"
+  } ],
+  "transitionRouteGroups": [ "CX Direct Other Intent Group" ]
+}

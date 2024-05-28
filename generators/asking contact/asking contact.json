@@ -1,0 +1,13 @@
+{
+  "name": "c9378c56-5526-4d95-88f7-f580a0df9ed2",
+  "displayName": "asking contact",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8130,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "4b4171f9-eff8-4746-89fe-172d529ffb7a",
+  "displayName": "order details",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Could you please provide me your order ID starting from the letter \"N\"? Eg: N90000" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Contact Customer Support"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "order.tracking.saying.orderid",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "0656fc12-13cb-4aa6-84d5-8373bd309761"
+  }, {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "59251649-b2f5-43fc-9817-b359e18db41f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative.order_collect_error" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Contact Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/15fd4d47-627b-4695-8674-476bb572230f",
+        "outputParameter": "$request.generative.order_collect_error"
+      } ]
+    },
+    "name": "1f190bc3-12ae-4d61-821d-b7b1f7874f4e"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "76" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a6c155c3-4ca4-4ada-9511-66c0c2caf849"
+  } ]
+}

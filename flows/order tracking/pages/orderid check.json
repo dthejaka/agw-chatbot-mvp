@@ -1,0 +1,22 @@
+{
+  "name": "88eef24c-3c8f-45fe-a819-1e2c4f2707b6",
+  "displayName": "orderid check",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.orderid = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order details",
+    "name": "45d272c9-88ee-4f8b-9847-742c7199e3c2"
+  }, {
+    "condition": "$session.params.orderid != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "4de25478-c6ee-4c74-aa79-f0286ff3c4e1"
+  } ]
+}

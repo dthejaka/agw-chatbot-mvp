@@ -1,0 +1,42 @@
+{
+  "name": "fb0b553c-628f-49b8-baf1-eb1e5b587cab",
+  "displayName": "windscreen extra information",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you want the windscreen to be installed into your vehicle?\n\n\nNote: Installations are only available at Coopers Plains (4108), Queensland." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "windscreen.install.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "ea075baf-8822-42ca-808d-8579e194c764"
+  }, {
+    "intent": "windscreen.install.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "13c82787-ea3f-487a-991e-ed9b5caa72be"
+  } ]
+}

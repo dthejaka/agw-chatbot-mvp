@@ -1,0 +1,13 @@
+{
+  "name": "d588a5cb-f0f6-41e3-b58f-f9da9674c286",
+  "displayName": "collecting body type",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

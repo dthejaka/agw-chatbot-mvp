@@ -1,0 +1,13 @@
+{
+  "name": "c2eae2a6-ffaf-4eac-9abb-7d38c8fd11eb",
+  "displayName": "collecting make",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

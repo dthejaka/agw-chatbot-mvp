@@ -1,0 +1,13 @@
+{
+  "name": "e1943564-68ab-4635-aadf-83cb482f2b59",
+  "displayName": "collecting model",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 2309,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

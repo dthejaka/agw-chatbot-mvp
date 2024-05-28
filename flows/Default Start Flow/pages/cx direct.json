@@ -1,0 +1,18 @@
+{
+  "name": "8c32745b-2378-459d-97a3-972d93cccb72",
+  "displayName": "cx direct",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "c51d0362-47f8-48a3-b3f4-f6cc702b3075"
+  } ]
+}

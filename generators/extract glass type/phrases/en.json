@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Extract the glass type the customer is looking for their vehicle from the given conversation below. If you find it difficult to extract the glass type, give an empty output.\n\n\u003cexamples\u003e\ninput: Hi. I’m looking for a 1985 Ford Bronco wagon rear tailgate glass. I’m living in SA. Lewiston close to Adelaide .Im happy to pick it up from an Adelaide depot as well. Regards. Joe\nglass: rear tailgate glass\n\ninput: Hi am after Sliding glasses for haice van 2014 commuter hive van After the sliding glass for passenger sliding door and 2 sliding glasses for the right side\nglass: Sliding glasses\n\ninput: I need to replace the front window of toyota prius 2010\nglass: front window\n\ninput: I am looking for a back glass for an 86 720 Nissan\nglass: back glass\n\ninput: I need a windscreen for my Honda\nglass: windscreen \n\n\u003c/examples\u003e\n\ninput: $conversation\noutput:",
+    "languageCode": "en"
+  } ]
+}

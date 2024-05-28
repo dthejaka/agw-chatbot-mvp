@@ -1,0 +1,102 @@
+{
+  "trainingPhrases": [ {
+    "id": "6ef11489-b5af-4d39-bba1-563e5fa8581b",
+    "parts": [ {
+      "text": "Hello I need a "
+    }, {
+      "text": "right rear windows"
+    }, {
+      "text": " replacement for an "
+    }, {
+      "text": "LDV",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "deliver 9",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": " high roof "
+    }, {
+      "text": "van",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "8db9d057-afd5-4b7f-9ea2-77c423666dea",
+    "parts": [ {
+      "text": "Do you have these windows in stock?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "749c4a1d-0183-46db-a468-1091ca730f65",
+    "parts": [ {
+      "text": "Windscreen"
+    }, {
+      "text": " "
+    }, {
+      "text": "2020",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Dodge",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Challenger",
+      "parameterId": "vehicle_model"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "d0b2b6ad-144f-49c7-895a-768e249aa6e4",
+    "parts": [ {
+      "text": "front "
+    }, {
+      "text": "windscreen"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Renault",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Masters",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": "2006",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "36ec8a18-b69a-4bcb-9ac1-68305bea00da",
+    "parts": [ {
+      "text": "I want to buy a "
+    }, {
+      "text": "windscreen"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "civic",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}

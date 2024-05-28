@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "# Instructions\nYou will be given a conversation between a user and an agent. The user has requested to track their order. But once the agent ask for the order ID, they have raised another questions. Always tell them it's better to contact a customer support agent to solve this issue.\n\n# Conversation\n$conversation\n$last-user-utterance",
+    "languageCode": "en"
+  } ]
+}

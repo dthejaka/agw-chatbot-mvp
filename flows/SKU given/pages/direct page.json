@@ -1,0 +1,65 @@
+{
+  "name": "b7c317dd-5e0e-499c-8e58-7d7ae3ac8d9f",
+  "displayName": "direct page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm sorry, I'm not able to handle product related requests yet. Do you want to contact a customer support agent?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "sku.customer.direct.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "bc55f23e-d346-4367-b484-0ddba9a6f821"
+  }, {
+    "intent": "sku.customer.direct.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Is there anything else I can help you with?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "sku",
+        "value": null
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "74d2f007-3614-4c5c-bfdf-2f3ebb209738"
+  } ]
+}

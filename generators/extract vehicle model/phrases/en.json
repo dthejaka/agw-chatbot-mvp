@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Extract the vehicle model from the given input. If you find it difficult to extract the model, give an empty output.\n\n\u003cexamples\u003e\ninput: Hi. I am interested in a windshield for a Mercedes CL from 2000 (w215).\nmodel: CL\n\ninput: Do you have right door front glass for Mercedes?\nmodel:\n\ninput: I need to replace the front window of toyota prius 2010\nmodel: Prius\n\ninput: I am looking for a back glass for an 86 720 Nissan\nmodel: 720\n\ninput: I need a windscreen for my Honda\noutput:\n\n\u003c/examples\u003e\n\ninput: $conversation\noutput:",
+    "languageCode": "en"
+  } ]
+}

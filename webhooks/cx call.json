@@ -1,0 +1,14 @@
+{
+  "name": "262c67ea-223d-403c-a407-6c69e22d8bef",
+  "displayName": "cx call",
+  "genericWebService": {
+    "uri": "https://agw-chatbot.onrender.com/",
+    "requestHeaders": [ {
+      "key": "conversation",
+      "value": "$conversation"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

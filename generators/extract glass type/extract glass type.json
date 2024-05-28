@@ -1,0 +1,13 @@
+{
+  "name": "101ac593-b5cd-49bf-979c-02f7de7b2894",
+  "displayName": "extract glass type",
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

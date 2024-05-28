@@ -1,0 +1,10 @@
+{
+  "name": "a61feb29-b1c9-41a3-bfc1-8e7f8a9ec453",
+  "displayName": "order.tracking",
+  "parameters": [ {
+    "id": "orderid",
+    "entityType": "@orderid"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 29
+}

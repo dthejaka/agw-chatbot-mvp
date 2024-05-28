@@ -1,0 +1,10 @@
+{
+  "name": "9316e019-d128-4626-b8df-3d3c9b5b8a68",
+  "displayName": "order.tracking.saying.orderid",
+  "parameters": [ {
+    "id": "orderid",
+    "entityType": "@orderid"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

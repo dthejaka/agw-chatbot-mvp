@@ -1,0 +1,63 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "+",
+      "auto": true
+    }, {
+      "text": "61774518654",
+      "parameterId": "number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cleo7@hotmail.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell.me@yahoo.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "thadd@gmail.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "+61432921057",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "456788989",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "451508309",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "+61451508308",
+      "parameterId": "phone-number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

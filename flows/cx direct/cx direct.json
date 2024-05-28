@@ -1,0 +1,64 @@
+{
+  "name": "d24da346-77fb-4f69-bcf9-9ed90d6aec3c",
+  "displayName": "cx direct",
+  "transitionRoutes": [ {
+    "condition": "$session.params.person = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "number",
+        "value": null
+      } ]
+    },
+    "targetPage": "asking name",
+    "name": "d47e01eb-edaa-4a6f-9447-b77804c26afe"
+  }, {
+    "condition": "$session.params.person != null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "number",
+        "value": null
+      } ]
+    },
+    "targetPage": "asking name",
+    "name": "238951e7-4aed-4548-b582-9cc43e837d34"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "db1f38fc-0200-4d9e-948b-a8f3ba0cce58"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a56d9a28-d424-4792-bc2e-4549c9a38696"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    }
+  }
+}

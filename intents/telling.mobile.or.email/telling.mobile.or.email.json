@@ -1,0 +1,20 @@
+{
+  "name": "e3362a51-d472-4b88-b1f9-d20a392d657b",
+  "displayName": "telling.mobile.or.email",
+  "parameters": [ {
+    "id": "mobile_or_email",
+    "entityType": "@mobile"
+  }, {
+    "id": "email",
+    "entityType": "@sys.email"
+  }, {
+    "id": "phone-number",
+    "entityType": "@sys.phone-number"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "This intent is triggered when the user gives either their mobile number or the email",
+  "numTrainingPhrases": 16
+}

@@ -1,0 +1,29 @@
+{
+  "name": "f9026438-7451-4757-bfeb-d8f676063ac2",
+  "displayName": "glass.buy",
+  "parameters": [ {
+    "id": "vehicle_make",
+    "entityType": "@vehicle_make"
+  }, {
+    "id": "vehicle_model",
+    "entityType": "@vehicle_model"
+  }, {
+    "id": "vehicle_year",
+    "entityType": "@vehicle_year"
+  }, {
+    "id": "vehicle_body_type",
+    "entityType": "@vehicle_body_type"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "glass_type",
+    "entityType": "@glass_type"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "This intent is triggered when a user asked to buy a glass for their vehicles and only triggered for glass related questions",
+  "numTrainingPhrases": 22
+}

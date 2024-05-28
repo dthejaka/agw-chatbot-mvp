@@ -1,0 +1,23 @@
+{
+  "name": "ee5f8d22-a67c-4f56-841b-59eac3d9d065",
+  "displayName": "additional message",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please type in your message:" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "eventHandlers": [ {
+    "targetPage": "thank you",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b77ccdec-fa29-413a-a886-53405385137a"
+  } ]
+}

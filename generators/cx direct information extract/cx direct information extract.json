@@ -1,0 +1,26 @@
+{
+  "name": "0e439d28-7042-4883-ae9d-4ea5a81f8fd3",
+  "displayName": "cx direct information extract",
+  "placeholders": [ {
+    "id": "make",
+    "name": "make"
+  }, {
+    "id": "model",
+    "name": "model"
+  }, {
+    "id": "year",
+    "name": "year"
+  }, {
+    "id": "body",
+    "name": "body"
+  } ],
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

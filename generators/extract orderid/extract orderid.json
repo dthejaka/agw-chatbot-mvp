@@ -1,0 +1,13 @@
+{
+  "name": "1411dfde-e106-4fc8-9cda-5a54076c9845",
+  "displayName": "extract orderid",
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "name": "84369745-1406-40fe-a1e1-21146b62a7af",
+  "displayName": "podium 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": " Need VW Jetta 2015 passenger side wing mirror heated"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "glass.buy"
+      },
+      "currentPage": {
+        "name": "direct me feature",
+        "flow": "buy glass"
+      },
+      "textResponses": [ {
+        "text": [ "You can use the Vehicle Part Finder feature to identify your vehicle and find the correct glass for your vehicle. You can find the feature at the top middle part of the website." ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      }, {
+        "text": [ "And hey, if you need any extra help, just contact a customer support agent." ]
+      } ],
+      "currentFlow": {
+        "name": "buy glass"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "direct me"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "customer.team.direct"
+      },
+      "currentPage": {
+        "name": "collecting missing information",
+        "flow": "buy glass"
+      },
+      "textResponses": [ {
+        "text": [ "Please provide the vehicle make and body type in the following format: Eg: Honda, civic, 2013, sedan" ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      } ],
+      "currentFlow": {
+        "name": "buy glass"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Volkswagen, sedan"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "telling.vehicle.information"
+      },
+      "currentPage": {
+        "name": "asking name",
+        "flow": "cx direct"
+      },
+      "textResponses": [ {
+        "text": [ "To assist you further, could you share your name?" ]
+      } ],
+      "currentFlow": {
+        "name": "cx direct"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Patrick"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "telling.name"
+      },
+      "currentPage": {
+        "name": "asking contact",
+        "flow": "cx direct"
+      },
+      "textResponses": [ {
+        "text": [ "Could you please provide your mobile number or email address?" ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      } ],
+      "currentFlow": {
+        "name": "cx direct"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "pat@gmail.com"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "telling.mobile.or.email"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "cx direct"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you for providing your information. Customer support agent will contact with you shortly. In the meantime, please feel free to browse our online store." ]
+      } ],
+      "currentFlow": {
+        "name": "cx direct"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1716170905,
+    "nanos": 291954000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

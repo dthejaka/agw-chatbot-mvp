@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "hiran@yahoo.com",
+    "synonyms": [ "hiran@yahoo.com" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "thejaka89@gmail.com",
+    "synonyms": [ "thejaka89@gmail.com" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "savindu.wijesinghe@hotmail.com",
+    "synonyms": [ "savindu.wijesinghe@hotmail.com" ],
+    "languageCode": "en-au"
+  } ]
+}

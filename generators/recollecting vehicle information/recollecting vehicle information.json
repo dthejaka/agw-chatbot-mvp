@@ -1,0 +1,26 @@
+{
+  "name": "fb28ffc0-4eb1-401b-8304-78de33d6b7b3",
+  "displayName": "recollecting vehicle information",
+  "placeholders": [ {
+    "id": "make",
+    "name": "make"
+  }, {
+    "id": "model",
+    "name": "model"
+  }, {
+    "id": "year",
+    "name": "year"
+  }, {
+    "id": "body",
+    "name": "body"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 1847,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

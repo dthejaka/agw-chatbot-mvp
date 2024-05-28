@@ -1,0 +1,19 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Example"
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "Autoglass Warehouse",
+    "agent": "Albert",
+    "agentIdentity": " assistant to humans on the FAQs",
+    "businessDescription": "an ecommerce website dedicated to auto glasses",
+    "agentScope": "with frequently asked questions",
+    "mainLlmConfig": {
+      "configSet": "gemini_pro"
+    }
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

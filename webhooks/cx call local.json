@@ -1,0 +1,10 @@
+{
+  "name": "e3018814-f077-4dbb-82be-ab4bd78c013e",
+  "displayName": "cx call local",
+  "genericWebService": {
+    "uri": "https://49fe-2402-d000-a400-b439-d6f-5ca0-9668-f6c.ngrok-free.app"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

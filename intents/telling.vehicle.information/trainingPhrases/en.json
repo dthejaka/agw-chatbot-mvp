@@ -1,0 +1,118 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "3",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": ", "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "E100",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "alto",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "civic",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "camry",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Mazda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cab",
+      "parameterId": "vehicle_body_type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "prius",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": "2017",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "2001",
+      "parameterId": "vehicle_year"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Toyota",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Corolla",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "2008",
+      "parameterId": "vehicle_year"
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

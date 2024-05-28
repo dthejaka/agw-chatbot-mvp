@@ -1,0 +1,37 @@
+{
+  "name": "07099d0d-0d45-49d9-8250-8936d710fa05",
+  "displayName": "asking contact",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.asking_contact" ]
+      },
+      "languageCode": "en"
+    } ],
+    "generators": [ {
+      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/c9378c56-5526-4d95-88f7-f580a0df9ed2",
+      "outputParameter": "$request.generative.asking_contact"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "telling.mobile.or.email",
+    "condition": "$session.params.mobile_or_email != null OR $session.params.email != null OR $session.params.number != null OR $session.params.phone-number != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking additional message",
+    "name": "4855cad2-e899-4d9f-9d0a-3fcdd552f47b"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "asking contact",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "426daa27-b5d0-49f8-898e-ebd86f780450"
+  } ],
+  "description": "This page ask for the contact details"
+}

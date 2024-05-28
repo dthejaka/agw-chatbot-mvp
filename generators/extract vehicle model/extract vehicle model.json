@@ -1,0 +1,13 @@
+{
+  "name": "972c54e6-5211-434f-a598-87a2838a2b59",
+  "displayName": "extract vehicle model",
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 8192,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

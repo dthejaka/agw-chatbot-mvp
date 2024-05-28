@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "# Instructions\nPast conversation between you and a user is given below. Ask for the vehicle body type from the user in a short, polite way. Make your output more engaging/customized for the user. DO NOT start your output by greeting.\n\n$conversation\n$last-user-utterance",
+    "languageCode": "en"
+  } ]
+}

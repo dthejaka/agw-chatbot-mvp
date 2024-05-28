@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "## Instructions\nYou are a helpful agent who extract the orderID from a given conversation. Note that, the orderID ALWAYS start from letter \"N\" and is followed by a set of digits after that. For example, \"N78921\" is an orderID. \"N102212\" is also an order ID. Give the extracted order ID as your response.\n\n## Example\nCustomer: I think my orderid is N23901\nYour response: N23901\n\nCustomer: $last-user-utterance\nYour Response: ",
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "sedan",
+    "synonyms": [ "sedan" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "hatchback",
+    "synonyms": [ "hatch", "hatchback", "hatch back" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "coupe",
+    "synonyms": [ "coupe" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ute",
+    "synonyms": [ "ute" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "van",
+    "synonyms": [ "van" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "truck",
+    "synonyms": [ "truck" ],
+    "languageCode": "en-au"
+  } ]
+}

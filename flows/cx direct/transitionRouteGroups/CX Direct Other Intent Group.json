@@ -1,0 +1,19 @@
+{
+  "name": "5630e733-a752-440e-a10f-a2891faa56b1",
+  "displayName": "CX Direct Other Intent Group",
+  "transitionRoutes": [ {
+    "intent": "glass.buy",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "buy glass",
+    "name": "2fc35e96-3d5d-4493-895a-b642ba6f184d"
+  }, {
+    "intent": "sku.given",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "SKU given",
+    "name": "dba8cd84-be9d-47e3-9870-faa422711075"
+  } ]
+}

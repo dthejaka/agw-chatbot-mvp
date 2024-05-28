@@ -1,0 +1,13 @@
+{
+  "name": "0635d00b-dc2d-4e70-a48d-d7511b2a0180",
+  "displayName": "telling.name",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 16
+}

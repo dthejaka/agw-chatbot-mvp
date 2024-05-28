@@ -1,0 +1,31 @@
+{
+  "entities": [ {
+    "value": "sedan",
+    "synonyms": [ "sedan" ],
+    "languageCode": "en"
+  }, {
+    "value": "hatchback",
+    "synonyms": [ "hatch", "hatch back", "hatchback" ],
+    "languageCode": "en"
+  }, {
+    "value": "coupe",
+    "synonyms": [ "coupe" ],
+    "languageCode": "en"
+  }, {
+    "value": "ute",
+    "synonyms": [ "ute" ],
+    "languageCode": "en"
+  }, {
+    "value": "van",
+    "synonyms": [ "van" ],
+    "languageCode": "en"
+  }, {
+    "value": "truck",
+    "synonyms": [ "truck" ],
+    "languageCode": "en"
+  }, {
+    "value": "I'm not sure about the body type",
+    "synonyms": [ "I'm not sure about the body type" ],
+    "languageCode": "en"
+  } ]
+}

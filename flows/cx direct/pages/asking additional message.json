@@ -1,0 +1,42 @@
+{
+  "name": "0170c16d-3776-4351-9784-783599a1b23e",
+  "displayName": "asking additional message",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Is there any additional information you’d like to share with our customer support agent to help them assist you better?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "saying.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "additional message",
+    "name": "8dd8fda4-63cb-4663-beb9-0935edf77f67"
+  }, {
+    "intent": "saying.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "thank you",
+    "name": "bbf8e240-7049-472d-ab6c-20549d5e5b53"
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "7ae0914d-77d3-4c20-a4ab-ff2e166888bf",
+  "displayName": "glass buy 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": " 09 subaru rear glass rego 523 luv"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "glass.buy"
+      },
+      "currentPage": {
+        "name": "direct me feature",
+        "flow": "buy glass"
+      },
+      "textResponses": [ {
+        "text": [ "Please use our Vehicle Part Finder feature to correctly identify your vehicle and glass. It's located at the top middle part of the website." ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      }, {
+        "text": [ "Looking to speak with a customer agent?" ]
+      } ],
+      "currentFlow": {
+        "name": "buy glass"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1715923368,
+    "nanos": 588499000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

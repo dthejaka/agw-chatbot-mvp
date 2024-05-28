@@ -1,0 +1,80 @@
+{
+  "name": "fdb7fcdc-0389-439f-a56d-5bb0c7cdda8a",
+  "displayName": "directing to my account",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You can track your order using below link.\n" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "anchor": {
+            "href": "https://www.autoglasswarehouse.com.au/_myacct/nr_track_order"
+          },
+          "image": {
+            "rawUrl": "https://static.vecteezy.com/system/resources/previews/004/896/077/original/pin-location-with-box-for-shipment-tracker-tracking-track-order-concept-illustration-flat-design-icon-sign-symbol-button-logo-stock-eps10-vector.jpg"
+          },
+          "subtitle": "Click here to track your order",
+          "title": "Track your order",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "If you need further assistance, please contact one of our customer service agent." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Contact Customer Support"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "orderid check",
+    "name": "448983a6-1e61-4312-a096-0213c4ed2221"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative.order_track_error" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Contact Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/15fd4d47-627b-4695-8674-476bb572230f",
+        "outputParameter": "$request.generative.order_track_error"
+      } ]
+    },
+    "name": "f781441e-22d6-4dd3-b946-2a33ef3e8744"
+  } ],
+  "transitionRouteGroups": [ "Order Tracking Route Group" ]
+}

@@ -1,0 +1,79 @@
+{
+  "trainingPhrases": [ {
+    "id": "30a095dd-4ea9-4dcc-aba6-337166e76493",
+    "parts": [ {
+      "text": "Mazda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "9d6dcc3a-5fad-4988-8742-55354f920033",
+    "parts": [ {
+      "text": "cab",
+      "parameterId": "vehicle_body_type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "25d8ec33-5d44-4c56-a45b-3ca376cc5c1e",
+    "parts": [ {
+      "text": "prius",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": "2017",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "f85ada1c-9a39-41f6-bf62-96ed74da4783",
+    "parts": [ {
+      "text": "2001",
+      "parameterId": "vehicle_year"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "d60fee8b-9e64-42c2-9599-592bd3b93195",
+    "parts": [ {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "34cb8dd2-14bf-4619-9108-2695677e0693",
+    "parts": [ {
+      "text": "Toyota",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Corolla",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "2008",
+      "parameterId": "vehicle_year"
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}

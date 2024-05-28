@@ -1,0 +1,33 @@
+{
+  "name": "35f828ef-8470-40af-b1b1-30d775de901e",
+  "displayName": "asking name",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you mind sharing your name with me, please?", "Could you kindly provide me with your name?", "To assist you further, could you share your name?", "May I ask for your name, please?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "telling.name",
+    "condition": "$session.params.person != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking contact",
+    "name": "0d6b055f-cab8-4878-954e-22dfab8e08c3"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "asking name 2",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "7f7a39bf-5e00-473b-8dfd-451e43e9563a"
+  } ],
+  "transitionRouteGroups": [ "CX Direct Other Intent Group" ]
+}

@@ -1,0 +1,415 @@
+{
+  "entities": [ {
+    "value": "DENNIS EAGLE",
+    "synonyms": [ "DENNIS EAGLE" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SKODA",
+    "synonyms": [ "SKODA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "JEEP",
+    "synonyms": [ "JEEP" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LAND ROVER",
+    "synonyms": [ "LAND ROVER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LAMBORGHINI",
+    "synonyms": [ "LAMBORGHINI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "IVECO",
+    "synonyms": [ "IVECO" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LINCOLN",
+    "synonyms": [ "LINCOLN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ASIA MOTORS",
+    "synonyms": [ "ASIA MOTORS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ROLLS ROYCE",
+    "synonyms": [ "ROLLS ROYCE" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "NISSAN",
+    "synonyms": [ "NISSAN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MASERATI",
+    "synonyms": [ "MASERATI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ROVER",
+    "synonyms": [ "ROVER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "CADILLAC",
+    "synonyms": [ "CADILLAC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "DATSUN",
+    "synonyms": [ "DATSUN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LADA",
+    "synonyms": [ "LADA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LEXUS",
+    "synonyms": [ "LEXUS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "CHERY",
+    "synonyms": [ "CHERY" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FIAT",
+    "synonyms": [ "FIAT" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MAZDA",
+    "synonyms": [ "Mazda", "MAZDA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FORD",
+    "synonyms": [ "FORD" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MG",
+    "synonyms": [ "MG" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BENTLEY",
+    "synonyms": [ "BENTLEY" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "CHRYSLER",
+    "synonyms": [ "CHRYSLER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FREIGHTLINER",
+    "synonyms": [ "FREIGHTLINER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "GMC",
+    "synonyms": [ "GMC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SMART",
+    "synonyms": [ "SMART" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ALFA ROMEO",
+    "synonyms": [ "ALFA ROMEO" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "KIA",
+    "synonyms": [ "KIA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HINO",
+    "synonyms": [ "HINO" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SEAT",
+    "synonyms": [ "SEAT" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SCANIA",
+    "synonyms": [ "SCANIA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "OCAM 4x4",
+    "synonyms": [ "OCAM 4x4" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "TOYOTA",
+    "synonyms": [ "Toyota" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "AUDI",
+    "synonyms": [ "AUDI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "JAGUAR",
+    "synonyms": [ "JAGUAR" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "PROTON",
+    "synonyms": [ "PROTON" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SHELBY",
+    "synonyms": [ "SHELBY" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "KUBOTA",
+    "synonyms": [ "KUBOTA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "GREAT WALL",
+    "synonyms": [ "GREAT WALL" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HYUNDAI",
+    "synonyms": [ "HYUNDAI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "DAEWOO",
+    "synonyms": [ "DAEWOO" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FOTON",
+    "synonyms": [ "FOTON" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "KENWORTH",
+    "synonyms": [ "KENWORTH" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "PONTIAC",
+    "synonyms": [ "PONTIAC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ATKINSON TRUCKS",
+    "synonyms": [ "ATKINSON TRUCKS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "TESLA",
+    "synonyms": [ "TESLA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "CHEVROLET",
+    "synonyms": [ "CHEVROLET" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "TATA",
+    "synonyms": [ "TATA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "INTERNATIONAL",
+    "synonyms": [ "INTERNATIONAL" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MERCEDES BENZ",
+    "synonyms": [ "Mercedes Benz" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SUZUKI",
+    "synonyms": [ "Suzuki", "SUZUKI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ASTON MARTIN",
+    "synonyms": [ "ASTON MARTIN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "PEUGEOT",
+    "synonyms": [ "PEUGEOT" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "AUSTIN",
+    "synonyms": [ "AUSTIN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FERRARI",
+    "synonyms": [ "FERRARI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MAN TRUCKS",
+    "synonyms": [ "MAN TRUCKS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MISC",
+    "synonyms": [ "MISC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SAAB",
+    "synonyms": [ "SAAB" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LEYLAND",
+    "synonyms": [ "LEYLAND" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SUBARU",
+    "synonyms": [ "SUBARU" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BYD",
+    "synonyms": [ "BYD" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "CITROEN",
+    "synonyms": [ "CITROEN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ISUZU",
+    "synonyms": [ "ISUZU" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MAHINDRA",
+    "synonyms": [ "MAHINDRA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MERCEDES",
+    "synonyms": [ "MERCEDES" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "RENAULT",
+    "synonyms": [ "RENAULT" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "DODGE",
+    "synonyms": [ "DODGE" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LOTUS",
+    "synonyms": [ "LOTUS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "DAIHATSU",
+    "synonyms": [ "DAIHATSU" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LDV",
+    "synonyms": [ "LDV" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MACK",
+    "synonyms": [ "MACK" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "INFINITI",
+    "synonyms": [ "INFINITI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MITSUBISHI",
+    "synonyms": [ "MITSUBISHI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "JMC",
+    "synonyms": [ "JMC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BEDFORD",
+    "synonyms": [ "BEDFORD" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "RANGE ROVER",
+    "synonyms": [ "RANGE ROVER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "DAF",
+    "synonyms": [ "DAF" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MORRIS",
+    "synonyms": [ "MORRIS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "LANCIA",
+    "synonyms": [ "LANCIA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "PORSCHE",
+    "synonyms": [ "PORSCHE" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BOLWELL",
+    "synonyms": [ "BOLWELL" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BMW",
+    "synonyms": [ "BMW" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "JAC",
+    "synonyms": [ "JAC" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "OPEL",
+    "synonyms": [ "OPEL" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HOLDEN",
+    "synonyms": [ "Holden", "HOLDEN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "MINI",
+    "synonyms": [ "MINI" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "RAMBLER",
+    "synonyms": [ "RAMBLER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HUMMER",
+    "synonyms": [ "HUMMER" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "EUNOS",
+    "synonyms": [ "EUNOS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "BUICK",
+    "synonyms": [ "BUICK" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "FRANNA",
+    "synonyms": [ "FRANNA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "PETERBILT",
+    "synonyms": [ "PETERBILT" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "SSANGYONG",
+    "synonyms": [ "SSANGYONG" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HILLMAN",
+    "synonyms": [ "HILLMAN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HAVAL",
+    "synonyms": [ "HAVAL" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "HONDA",
+    "synonyms": [ "Honda", "HONDA" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "TRIUMPH",
+    "synonyms": [ "TRIUMPH" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "UD TRUCKS",
+    "synonyms": [ "UD TRUCKS" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "VOLKSWAGEN",
+    "synonyms": [ "VOLKSWAGEN" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "VOLVO",
+    "synonyms": [ "VOLVO" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "WESTERN STAR",
+    "synonyms": [ "WESTERN STAR" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "WHITE",
+    "synonyms": [ "WHITE" ],
+    "languageCode": "en-au"
+  }, {
+    "value": "ZX AUTO",
+    "synonyms": [ "ZX AUTO" ],
+    "languageCode": "en-au"
+  } ]
+}

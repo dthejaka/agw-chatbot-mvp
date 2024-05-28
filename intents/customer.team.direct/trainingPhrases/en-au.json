@@ -1,0 +1,52 @@
+{
+  "trainingPhrases": [ {
+    "id": "b09fc860-91e6-4f33-8ab7-018f9da9d426",
+    "parts": [ {
+      "text": "Direct me"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "c57cc8a7-21b4-4ecc-8165-7b541e4f5907",
+    "parts": [ {
+      "text": "direct to an agent please"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "404a66cf-9abb-4e10-adc6-de04a5bc8b88",
+    "parts": [ {
+      "text": "Direct to an agent"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "6e8a8c51-151d-4772-8e41-249b35fcba8d",
+    "parts": [ {
+      "text": "Can I talk to a human"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "4d4a8900-08d1-4ab9-9668-f53b95f91e38",
+    "parts": [ {
+      "text": "I need to contact sales person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "109dc104-6558-46e7-a5a9-a751d56146be",
+    "parts": [ {
+      "text": "I want to talk to someone"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "1499cf2f-c5b1-42c9-a110-5f5365e83e21",
+    "parts": [ {
+      "text": "I don't understand this, can I talk to a human?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}

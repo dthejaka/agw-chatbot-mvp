@@ -1,0 +1,13 @@
+{
+  "name": "13156c55-56e4-4b33-bd13-ff81a4f90aa3",
+  "displayName": "confirming the name",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 2063,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

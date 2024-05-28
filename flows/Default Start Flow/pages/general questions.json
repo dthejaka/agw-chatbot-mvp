@@ -1,0 +1,27 @@
+{
+  "name": "0c561f33-d347-4f31-b773-5682d747c687",
+  "displayName": "general questions",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/609843612112/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

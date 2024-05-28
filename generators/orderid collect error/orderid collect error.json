@@ -1,0 +1,13 @@
+{
+  "name": "15fd4d47-627b-4695-8674-476bb572230f",
+  "displayName": "orderid collect error",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8192,
+    "topP": 0.67000002,
+    "topK": 17
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

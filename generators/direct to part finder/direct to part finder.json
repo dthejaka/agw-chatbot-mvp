@@ -1,0 +1,13 @@
+{
+  "name": "7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
+  "displayName": "direct to part finder",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8038,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

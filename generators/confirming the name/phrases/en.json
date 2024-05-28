@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "You will be given the last user utterance of a customer. The last question is about asking for the name from the customer. However, our system entity to grab the name parameter has found it difficult to identify the name. Your job is to ask the customer for their name again in a very polite way. Tell the customer that you are still working on identifying the name properly. Also tell the customer that if they wish to not share the name click below \"Continue\" button.\n\n\n$last-user-utterance",
+    "languageCode": "en"
+  } ]
+}

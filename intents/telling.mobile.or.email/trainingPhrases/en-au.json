@@ -1,0 +1,71 @@
+{
+  "trainingPhrases": [ {
+    "id": "f1ec49f4-59b2-4448-ae44-b2e354da0807",
+    "parts": [ {
+      "text": "+",
+      "auto": true
+    }, {
+      "text": "61774518654",
+      "parameterId": "number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "131ee508-258f-4fca-bd9d-fe26930d8dc8",
+    "parts": [ {
+      "text": "cleo7@hotmail.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "df23f43e-d1df-4f71-b81e-8ccf730111ca",
+    "parts": [ {
+      "text": "tell.me@yahoo.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "df68776c-7fca-4419-bba3-2436ff606b00",
+    "parts": [ {
+      "text": "thadd@gmail.com",
+      "parameterId": "email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "6a154176-a642-40f3-8bc5-03b9cb89f83b",
+    "parts": [ {
+      "text": "+61432921057",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "37260b89-0c56-45e6-b339-4cef2da4549f",
+    "parts": [ {
+      "text": "456788989",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "ae943af9-db15-432a-9ae6-8c85bfb15222",
+    "parts": [ {
+      "text": "451508309",
+      "parameterId": "mobile_or_email"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  }, {
+    "id": "14444832-9333-4e4c-8554-b546537f728d",
+    "parts": [ {
+      "text": "+61451508308",
+      "parameterId": "phone-number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "[0-9]{4}",
+    "synonyms": [ "[0-9]{4}" ],
+    "languageCode": "en"
+  }, {
+    "value": "I'm not sure about the year",
+    "synonyms": [ "I'm not sure about the year" ],
+    "languageCode": "en"
+  } ]
+}

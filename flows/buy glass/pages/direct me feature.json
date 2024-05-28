@@ -1,0 +1,49 @@
+{
+  "name": "f882a05d-ad67-48f4-b82b-a3dfcdce87b5",
+  "displayName": "direct me feature",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you need further assistance, please feel free to reach out to our customer support team. We're here to help!", "Need help from a customer support agent? Click below to get in touch.", "Want additional assistance? Contact a customer support agent.", "Need help from a customer support agent? Click below to get in touch.", "Looking for more help? Contact our customer support agent by clicking below" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Contact Customer Support"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "collecting missing information",
+    "name": "9283d94d-4a2a-47b1-8d7e-93c251ee81ff"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative.fallback3" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+        "outputParameter": "$request.generative.fallback3"
+      } ]
+    },
+    "name": "7b8acdf7-5e34-4ff0-95dc-18923009cfe4"
+  } ]
+}

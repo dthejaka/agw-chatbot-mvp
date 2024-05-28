@@ -1,0 +1,53 @@
+{
+  "name": "f060abee-6355-4639-8dcb-e4ee5417ecf2",
+  "displayName": "asking name 2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.name" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Continue"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "generators": [ {
+      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/13156c55-56e4-4b33-bd13-ff81a4f90aa3",
+      "outputParameter": "$request.generative.name"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "telling.name",
+    "condition": "$session.params.person != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking contact",
+    "name": "e5eb5a4d-359e-4f2c-aec0-dbffb69e855d"
+  }, {
+    "intent": "continue.anyway",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking contact",
+    "name": "1b37b781-efc0-4172-8c99-b3821b0cf502"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "asking name 2",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "3c6d94e9-f8a1-49b6-b998-36b2034ee547"
+  } ]
+}

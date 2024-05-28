@@ -1,0 +1,381 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "do you have ",
+      "auto": true
+    }, {
+      "text": "windscreen",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " for ",
+      "auto": true
+    }, {
+      "text": "honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "cr-z",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i need a new ",
+      "auto": true
+    }, {
+      "text": "glass"
+    }, {
+      "text": " for my vehicle",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need "
+    }, {
+      "text": "drivers door",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " window for my  "
+    }, {
+      "text": "2006",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "mazda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "6",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": " sport "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need ",
+      "auto": true
+    }, {
+      "text": "drivers door",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " window for my vehicle",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need "
+    }, {
+      "text": "right front door",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " window for my vehicle"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need "
+    }, {
+      "text": "right front door",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " glass for my vehicle"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "After a new ",
+      "auto": true
+    }, {
+      "text": "side mirror",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " for ",
+      "auto": true
+    }, {
+      "text": "jeep",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "wrangler",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "2012",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "After a "
+    }, {
+      "text": "left handside rear window",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for "
+    }, {
+      "text": "jeep",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "wrangler",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "2012",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi im looking for a "
+    }, {
+      "text": "rear window",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " for a "
+    }, {
+      "text": "2006",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "mazda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "6"
+    }, {
+      "text": " sport "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "looking for "
+    }, {
+      "text": "passengers front window",
+      "parameterId": "glass_type"
+    }, {
+      "text": " glass merceres "
+    }, {
+      "text": "vito",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " 108cdi "
+    }, {
+      "text": "2002",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " rgistration SIH080 victoria"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to replace the "
+    }, {
+      "text": "front window",
+      "parameterId": "glass_type"
+    }, {
+      "text": " of "
+    }, {
+      "text": "toyota",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "prius",
+      "parameterId": "vehicle_model",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "2010",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am looking for a "
+    }, {
+      "text": "back glass",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " for an "
+    }, {
+      "text": "86 720"
+    }, {
+      "text": " "
+    }, {
+      "text": "Nissan",
+      "parameterId": "vehicle_make",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hey I'm looking for "
+    }, {
+      "text": "right side rear window",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Vezel",
+      "parameterId": "vehicle_model"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello I need a "
+    }, {
+      "text": "right rear windows",
+      "parameterId": "glass_type"
+    }, {
+      "text": " replacement for an "
+    }, {
+      "text": "LDV",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "deliver 9",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": " high roof "
+    }, {
+      "text": "van",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Windscreen"
+    }, {
+      "text": " "
+    }, {
+      "text": "2020",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Dodge",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Challenger",
+      "parameterId": "vehicle_model"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "front windscreen",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Renault",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Masters",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": "2006",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a "
+    }, {
+      "text": "windscreen",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "civic",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
